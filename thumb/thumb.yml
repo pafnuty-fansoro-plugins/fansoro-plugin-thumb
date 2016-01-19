@@ -1,12 +1,12 @@
 name: Thumb Plugin
-version: 1.0.0
-description: "Thumb generation plugin for Morfy CMS"
+version: 1.1.0
+description: "Thumb generation plugin for Fansoro CMS"
 author:
   name: Pavel Belousov
   email: pafnuty10@gmail.com
   url: http://pafnuty.name
-homepage: https://github.com/pafnuty-morfy-plugins/morfy-plugin-thumb
-bugs: https://github.com/pafnuty-morfy-plugins/morfy-plugin-thumb/issues
+homepage: https://github.com/pafnuty-fansoro-plugins/fansoro-plugin-thumb
+bugs: https://github.com/pafnuty-fansoro-plugins/fansoro-plugin-thumb/issues
 license: MIT
 
 # Plugin settings

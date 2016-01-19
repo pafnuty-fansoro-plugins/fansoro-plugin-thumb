@@ -1,13 +1,13 @@
 <?php
 
 /**
- *  Thumb generation plugin for Morfy CMS
+ *  Thumb generation plugin for Fansoro CMS
  *
- * @package    Morfy
+ * @package    Fansoro
  * @subpackage Plugins
  * @author     Pavel Belousov / pafnuty
- * @version    1.0.0
- * @license    https://github.com/pafnuty-morfy-plugins/morfy-plugin-thumb/blob/master/LICENSE MIT
+ * @version    1.1.0
+ * @license    https://github.com/pafnuty-fansoro-plugins/fansoro-plugin-thumb/blob/master/LICENSE MIT
  *
  */
 
@@ -136,14 +136,14 @@ Shortcode::add(
 Action::add(
 	'theme_header', function () {
 	if (Config::get('plugins.thumb.loadcss')) {
-		echo '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css">';
+		echo '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">';
 	}
 }
 );
 Action::add(
 	'theme_footer', function () {
 	if (Config::get('plugins.thumb.loadjs')) {
-		echo '<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>';
+		echo '<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>';
 		echo '<script src="' . Url::getBase() . '/plugins/thumb/assets/js/thumb.js"></script>';
 	}
 }
